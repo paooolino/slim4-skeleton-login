@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^0.6.0",
+        "dflydev/fig-cookies": "^1.0",
+        "php-di/php-di": "^6.0",
+        "slim/http": "^0.8.0",
+        "slim/php-view": "^2.2",
+        "phpspec/prophecy": "^1.10"
+    },
+    "autoload": {
+      "psr-4": {
+        "WebApp\\": "app/src/"
+      }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^6.1"
+    }
+}
