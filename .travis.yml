@@ -1,5 +1,1 @@
 language: php
-php:
-  - 7.1.9
-script:
-   - ./vendor/bin/phpspec run --format=dot  
