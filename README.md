@@ -1,3 +1,5 @@
+![enter image description here](https://travis-ci.org/paooolino/slim4-skeleton-login.svg?branch=master)
+
 # Slim 4 + PHP-DI skeleton application with Login feature
 
 This is my personal version of a skeleton application made by using Slim Php Framework v.4 and PHP-DI as dependency container.
