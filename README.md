@@ -5,6 +5,19 @@
 This is my personal version of a skeleton application made by using Slim Php Framework v.4 and PHP-DI as dependency container.
 It is the result of a work starded with Slim3 in the past year. The focus is to keep things simple and clear and also be as beginner-friendly as possible. 
 
+## Quick start
+1. Install dependencies by running
+
+    composer install
+
+2. Run with docker: 
+
+    docker-compose up -d
+
+3. Point your browser to:
+
+    http://localhost:8080/
+
 ## What this is about
 
 If you are new to Slim Framework, you may ask yourself "Why I need a framework for my web Application"? I'm with you and I like to build tools by myself. Actually I tried to build my own framework and I found out I was just struggling with problems that Slim already addressed and solved in smart ways (I wrote about this topic [here](https://medium.com/@paooolino/why-i-choose-slim-framework-for-my-php-web-development-3b087e6d09fc)). I ended up with a quite good product but Slim was more efficient and tested. So I dived into it and after having used it for a pair of project at work, and a lot of test and study I found the right project skeleton for me.

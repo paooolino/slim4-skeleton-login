@@ -16,7 +16,7 @@ Slim\Factory\AppFactory::setContainer($container);
 
 // Instantiate the Slim App
 $app = Slim\Factory\AppFactory::create();
-$app->setBasePath('/wda2/examples/authenticationV4');
+//$app->setBasePath('/subdirectory');
 
 // Add Error Handling Middleware
 $app->addErrorMiddleware(true, false, false);
