@@ -5,7 +5,7 @@ class ProfileCtr {
   private $view;
   private $UserModel;
   
-  public function __construct(\Slim\Views\Phprenderer $view, \WebApp\Model\UserModel $UserModel) {
+  public function __construct(\Slim\Views\PhpRenderer $view, \WebApp\Model\UserModel $UserModel) {
     $this->view = $view;
     $this->UserModel = $UserModel;
   }

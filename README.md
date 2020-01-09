@@ -17,6 +17,15 @@ It is the result of a work starded with Slim3 in the past year. The focus is to 
 3. Point your browser to:
 
     http://localhost:8080/
+    
+run tests:
+
+    vendor/bin/phpspec run
+    
+run phpstan:
+
+     vendor/bin/phpstan analyse app/src --level 5
+    
 
 ## What this is about
 
